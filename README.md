@@ -1,7 +1,7 @@
 # soc_design
 
 
-##**DAY0 - Tools Installation:**
+## **DAY0 - Tools Installation:**
 
 
 **Yosys** 
