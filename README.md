@@ -47,3 +47,15 @@
 
 
 </details>
+
+<details>
+  <summary>Day 2 : Timing Libs, Hierarchical vs Flat Synthesis and Efficient Coding Styles</summary>
+</details>
+
+<details>
+  <summary>Day 3 : Combinational and Sequential Optimizations</summary>
+</details>
+
+<details>
+  <summary>Day 4 : GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatch</summary>
+</details>
