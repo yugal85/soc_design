@@ -1,7 +1,8 @@
 # soc_design
 
 
-## **DAY0 - Tools Installation:**
+<details></details>
+<summary>**DAY0 - Tools Installation:** </summary>
 
 
 **Yosys** 
@@ -18,3 +19,7 @@
 
 **GTKWave**
 ![gtkwave](https://github.com/user-attachments/assets/3de31f24-7b1a-45ac-9052-0b97d215041b)
+
+</details>
+
+## **DAY0 - Tools Installation:**
