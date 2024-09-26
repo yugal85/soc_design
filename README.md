@@ -27,6 +27,7 @@
 
 
 
+
 **GTKWave Output After Running IVerilog**
 ![good_mux_gtkwave](https://github.com/user-attachments/assets/840a4f95-27bd-4d36-ba19-c790bb52b40f)
 
