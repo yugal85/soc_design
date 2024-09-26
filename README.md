@@ -1,7 +1,7 @@
 # soc_design
 
 
-<details></details>
+<details>
 <summary>**DAY0 - Tools Installation:** </summary>
 
 
