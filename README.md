@@ -92,11 +92,13 @@
 
 ![Screenshot 2024-09-28 150909](https://github.com/user-attachments/assets/282d050a-4288-455c-b709-cd4eee109303)
 
-<h2> Various Flops and Synthesis </h2>
 
 **Sub Module Synthesis Schematic**
 
 ![Screenshot 2024-09-28 150941](https://github.com/user-attachments/assets/482d2c13-781b-46ab-abe1-f8c09b178dda)
+
+<h2> Various Flops and Synthesis </h2>
+
 
 **D-FF with Asynchronous Reset GTKWave**
 
