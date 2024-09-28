@@ -59,6 +59,7 @@
 ![Screenshot 2024-09-28 142704](https://github.com/user-attachments/assets/398e1ea6-796e-4cde-ade5-8ca908ff36e2)
 
 <h2> Hierarchical Synthesis </h2>
+
 **Hierarchical Synthesis Code**
 
 ![Screenshot 2024-09-28 144633](https://github.com/user-attachments/assets/79fcd54f-3496-4e61-82e3-a6c24d6486f5)
