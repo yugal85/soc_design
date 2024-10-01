@@ -193,75 +193,75 @@
 
 <h2> D-FF Optimizations </h2>
 
-** D-FF 1 YOSYS **
+**D-FF 1 YOSYS**
 
 ![Screenshot 2024-10-01 010407](https://github.com/user-attachments/assets/ca02da2b-c439-4a80-896b-bab757c69a5a)
 
 
 
-** D-FF 1 GTKWave **
+**D-FF 1 GTKWave**
 
 ![Screenshot 2024-10-01 010013](https://github.com/user-attachments/assets/9df72448-d6d9-4ad6-86f9-30b2820dbd1e)
 
 
 
-** D-FF 2 YOSYS **
+**D-FF 2 YOSYS**
 
 ![Screenshot 2024-10-01 010718](https://github.com/user-attachments/assets/e256bc6a-e676-4712-a41f-70ebb93a4148)
 
 
 
-** D-FF 2 GTKWave **
+**D-FF 2 GTKWave**
 
 ![Screenshot 2024-10-01 010155](https://github.com/user-attachments/assets/0b037e04-59f1-43a0-b2b8-e3237fc549af)
 
 
 
-** D-FF 3 YOSYS **
+**D-FF 3 YOSYS**
 
 ![Screenshot 2024-10-01 010843](https://github.com/user-attachments/assets/b99aa1e5-2104-4c8d-9ec3-7732ee1617bb)
 
 
 
-** D-FF 3 GTKWave **
+**D-FF 3 GTKWave**
 
 ![Screenshot 2024-10-01 011423](https://github.com/user-attachments/assets/c47c5fc2-f16a-4d07-9756-0b5743c79f91)
 
 
 
 
-** D-FF 4 YOSYS **
+**D-FF 4 YOSYS**
 
 ![Screenshot 2024-10-01 010929](https://github.com/user-attachments/assets/d206347a-5d5d-449f-9ba2-3bb312e0452a)
 
 
 
-** D-FF 4 GTKWave **
+**D-FF 4 GTKWave**
 
 ![Screenshot 2024-10-01 011501](https://github.com/user-attachments/assets/99d285b6-b3c9-44c2-a4b2-70ca64dd94d7)
 
 
 
-** D-FF 5 YOSYS **
+**D-FF 5 YOSYS**
 
 ![Screenshot 2024-10-01 011003](https://github.com/user-attachments/assets/97851665-94a3-4d75-9072-2a593227e6d5)
 
 
 
-** D-FF 5 GTKWave **
+**D-FF 5 GTKWave**
 
 ![Screenshot 2024-10-01 011540](https://github.com/user-attachments/assets/ce6a5153-ad92-448d-bc4c-5b893cde0719)
 
 
 <h2> Counter Optimizations </h2>
 
-** Counter Optimization with 1 FF YOSYS **
+**Counter Optimization with 1 FF YOSYS**
 
 ![Screenshot 2024-10-01 012257](https://github.com/user-attachments/assets/c0c73875-60e1-40e6-b39d-5554bd50d4ac)
 
 
 
-** Counter Optimization with 3 FF's YOSYS **
+**Counter Optimization with 3 FF's YOSYS**
 
 ![Screenshot 2024-10-01 013252](https://github.com/user-attachments/assets/32d616c7-cf2f-4001-af7c-b018b4ddbff5)
 
@@ -270,4 +270,48 @@
 
 <details>
   <summary>Day 4 : GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatch</summary>
+
+<h2> Synthesis-Simulation Mismatch </h2>
+
+**Ternary Operator MUX YOSYS**
+![Screenshot 2024-10-01 023111](https://github.com/user-attachments/assets/54fa4436-124f-4741-b9b5-fad61960cf4a)
+
+
+
+**Ternary Operator MUX GTKWave**
+![Screenshot 2024-10-01 022949](https://github.com/user-attachments/assets/208da10b-4a14-4845-b1a9-edc4e117331a)
+
+
+
+**Ternary Operator MUX GLS GTKWave**
+![Screenshot 2024-10-01 023618](https://github.com/user-attachments/assets/caf8d2c9-db15-4af2-941f-a1b402d030ac)
+
+
+
+**Bad MUX GTKWave**
+![Screenshot 2024-10-01 023856](https://github.com/user-attachments/assets/58f03fa2-b2ce-4c0f-8237-457945aae014)
+
+
+
+**Bad MUX GLS GTKWave**
+![Screenshot 2024-10-01 024237](https://github.com/user-attachments/assets/3976ad7d-819e-424b-91d1-37bd8e1be72f)
+
+
+
+**Blocking Caveat YOSYS**
+![Screenshot 2024-10-01 025246](https://github.com/user-attachments/assets/9d52363b-ff32-4b76-b3ee-8b5a97d7fd18)
+
+
+
+**Blocking Caveat GTKWave**
+![Screenshot 2024-10-01 024844](https://github.com/user-attachments/assets/2d7979c4-c093-475f-a9f1-b1d64d3056a7)
+
+
+
+**Blocking Caveat GLS GTKWave**
+![Screenshot 2024-10-01 025550](https://github.com/user-attachments/assets/c0b4c9cf-1c69-4b89-83b7-6d56905bdc64)
+
+
+
+  
 </details>
