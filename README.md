@@ -185,13 +185,11 @@
 
 
 
-**Optimization Check Multiple Module 1 YOSYS**
+**Optimization Check Multiple Module YOSYS**
 ![Screenshot 2024-10-01 004059](https://github.com/user-attachments/assets/ecdd172f-897f-4b25-9c37-350bf8a7a896)
 
 
 
-**Optimization Check Multiple Module 2 YOSYS**
-![Screenshot 2024-10-01 004203](https://github.com/user-attachments/assets/31de040c-7ea9-4147-b86a-a293fc7e9d10)
 
 <h2> D-FF Optimizations </h2>
 
