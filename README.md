@@ -297,6 +297,7 @@
 ![Screenshot 2024-10-01 024237](https://github.com/user-attachments/assets/3976ad7d-819e-424b-91d1-37bd8e1be72f)
 
 
+<h2> Blocking Vs Non-Blocking </h2>
 
 **Blocking Caveat YOSYS**
 ![Screenshot 2024-10-01 025246](https://github.com/user-attachments/assets/9d52363b-ff32-4b76-b3ee-8b5a97d7fd18)
