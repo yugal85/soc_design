@@ -316,3 +316,38 @@
 
   
 </details>
+
+<details> 
+<summary> Day 5: Introduction to Logic Synthesis</summary>
+
+**Setting Up Synopsys Design Compiler (Flip-Flop)**
+![Screenshot 2024-10-08 at 1 09 09 AM](https://github.com/user-attachments/assets/c9c8aa9f-fbf6-47c7-a63d-509369a7cced)
+
+**Un-optimized Netlist**
+![Screenshot 2024-10-08 at 1 11 17 AM](https://github.com/user-attachments/assets/d21b3be9-36d6-4f97-8b78-5646717aa3e0)
+
+**Optimization**
+![Screenshot 2024-10-08 at 1 17 59 AM](https://github.com/user-attachments/assets/d0d0e57c-1b69-420b-9d0f-e24b79970667)
+
+**Optimized Netlist**
+![Screenshot 2024-10-08 at 1 19 06 AM](https://github.com/user-attachments/assets/b645c2de-37c0-4c70-a2a2-e40a82d23e43)
+
+**Design Vision Graphical User Interface**
+![Screenshot 2024-10-08 at 1 26 07 AM](https://github.com/user-attachments/assets/1ac3dbb9-a4ee-4c56-9f7f-2d77e1182a74)
+
+
+</details>
+
+<details> 
+<summary> Day 6 : Basics of STA </summary>
+
+**Understanding the .lib File Part 1**
+![Screenshot 2024-10-08 at 1 26 07 AM](https://github.com/user-attachments/assets/03a071ca-794f-4a9f-9695-eb2a8e9e2937)
+
+
+**Understanding the .lib File Part 2**
+![Screenshot 2024-10-08 at 7 42 03 PM](https://github.com/user-attachments/assets/6ab03999-91aa-4ee0-bf1b-a5919cb1dbb3)
+
+
+
+</details>
