@@ -378,6 +378,43 @@
 
 
 
+**TCL Script for Listing Cell Names**
+
+
+![Screenshot 2024-10-12 at 7 32 55 PM](https://github.com/user-attachments/assets/9699894e-e85d-4b16-888d-9386d3644f64)
+
+
+**Getting Direction of Pins Using TCL for AND2**
+
+
+![Screenshot 2024-10-12 at 7 48 41 PM](https://github.com/user-attachments/assets/572caa09-75e8-46a7-a5a1-800574064fe5)
+
+
+**Getting Direction of Pins Using TCL for NAND4**
+
+
+![Screenshot 2024-10-12 at 7 54 25 PM](https://github.com/user-attachments/assets/fe4ca87b-9c49-4670-bced-9b47f2a4d9b7)
+
+
+**TCL Script for Getting Name, Attribute, and Function**
+
+
+![Screenshot 2024-10-12 at 8 09 09 PM](https://github.com/user-attachments/assets/c2cbaaa4-3538-47ae-9fa9-82c46aae036b)
+
+
+**Output After Running TCL Script**
+
+
+![Screenshot 2024-10-12 at 8 08 58 PM](https://github.com/user-attachments/assets/4006a830-2dc7-4018-961a-d6767d507513)
+
+
+
+
+
+
+
+
+
 
 
 </details>
