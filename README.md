@@ -440,11 +440,11 @@ A System on a Chip (SoC) refers to an integrated circuit that consolidates all e
   
   6) Specialized Modules: Additional components, such as wireless communication units (e.g., Wi-Fi, Bluetooth), power management systems, and various sensors, may be integrated depending on the application.
 
-<br>
+
 
 ![image](https://github.com/user-attachments/assets/4e4ce180-b026-466f-be2b-89c7e688020c)
 
-<br>
+
 
 <u> Key Benefits of SoCs: </u> 
 
@@ -524,9 +524,12 @@ An SoC is composed of various hardware functional units that work together, incl
 **SoC Design Flow:**
 The SoC design process is structured in multiple stages, from specification and design, to verification and fabrication. This involves architecture design, IP integration, verification, and physical design, followed by validation and testing.
 
-<br>
+
+
 ![image](https://github.com/user-attachments/assets/85ab41af-152b-46fd-8206-ed25c5c4581d)
-<br>
+
+
+
 
 
 **Introduction to VSDBabySoC:**
