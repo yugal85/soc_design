@@ -440,7 +440,11 @@ A System on a Chip (SoC) refers to an integrated circuit that consolidates all e
 
 
 
-![image](https://github.com/user-attachments/assets/4e4ce180-b026-466f-be2b-89c7e688020c)
+<img width="821" alt="Screenshot 2024-10-19 at 6 48 34 PM" src="https://github.com/user-attachments/assets/45f881e5-0c65-440f-8027-af56355d4615">
+
+
+
+
 
 
 
@@ -523,10 +527,7 @@ An SoC is composed of various hardware functional units that work together, incl
 The SoC design process is structured in multiple stages, from specification and design, to verification and fabrication. This involves architecture design, IP integration, verification, and physical design, followed by validation and testing.
 
 
-
-<img width="820" alt="Screenshot 2024-10-19 at 6 53 07 PM" src="https://github.com/user-attachments/assets/9f85f33a-fa38-447a-9864-9fb6f9b48475">
-
-
+<img width="823" alt="Screenshot 2024-10-19 at 6 49 45 PM" src="https://github.com/user-attachments/assets/a4d63188-72e4-49ce-936e-945d3e82d505">
 
 
 
@@ -535,9 +536,10 @@ The SoC design process is structured in multiple stages, from specification and 
 
 VSDBabySoC is a compact yet powerful RISC-V-based SoC, designed to test and calibrate three open-source IP cores, while integrating an analog component. The key components of the VSDBabySoC are:
 
-<br>
+
 ![image](https://github.com/user-attachments/assets/19432541-272e-430a-a668-379de7333056)
-<br>
+
+
 
 **RVMYTH Microprocessor:** A simple RISC-V-based CPU.
 **8x-PLL:** Generates a stable clock signal for synchronization and timing.
