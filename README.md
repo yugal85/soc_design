@@ -424,6 +424,7 @@
 <details> 
 <summary> Day 7 : Introduction to BabySoC Modeling </summary>
 
+<br> 
 
 A System on a Chip (SoC) refers to an integrated circuit that consolidates all essential components of a computing or electronic system onto a single chip. These integrated components typically include:
 
@@ -439,7 +440,11 @@ A System on a Chip (SoC) refers to an integrated circuit that consolidates all e
   
   6) Specialized Modules: Additional components, such as wireless communication units (e.g., Wi-Fi, Bluetooth), power management systems, and various sensors, may be integrated depending on the application.
 
+<br>
 
+![image](https://github.com/user-attachments/assets/4e4ce180-b026-466f-be2b-89c7e688020c)
+
+<br>
 
 <u> Key Benefits of SoCs: </u> 
 
@@ -490,6 +495,80 @@ A System on a Chip (SoC) refers to an integrated circuit that consolidates all e
 
 
 In summary, SoCs are central to the development of modern electronic devices, enabling the creation of more compact, efficient, and high-performance systems. However, their design and implementation demand sophisticated engineering solutions to address challenges such as heat dissipation, complexity, and flexibility.
+
+
+
+
+Types of SoC:
+
+  1) Microcontroller-based SoCs: These SoCs are built around a microcontroller, ideal for embedded systems that require less processing power but need integrated peripherals and memory.
+  
+  2) Microprocessor-based SoCs: These SoCs, often found in mobile phones, are built around a microprocessor and are designed for systems requiring more complex processing capabilities like smartphones, tablets, or personal computing devices.
+  
+  3) Application-Specific SoCs (ASIC): These are customized SoCs designed for particular applications that do not fit into the microcontroller or microprocessor categories. They often target specialized tasks such as video encoding, signal       
+     processing, or networking.
+
+<br> 
+
+**SoC Structure:**
+An SoC is composed of various hardware functional units that work together, including processors, memory modules, and communication subsystems. These components are interconnected by various communication frameworks like buses or Networks on Chip (NoCs).
+
+**Functional Components:**
+
+  1) Processor Cores: Execute software tasks and control system operations.
+  2) Memory: Includes on-chip RAM, ROM, and cache for data storage and retrieval.
+  3) Interfaces: Connect external devices and components.
+  4) Digital Signal Processor (DSP): Handles real-time processing of audio, video, and other signals.
+
+
+**SoC Design Flow:**
+The SoC design process is structured in multiple stages, from specification and design, to verification and fabrication. This involves architecture design, IP integration, verification, and physical design, followed by validation and testing.
+
+<br>
+![image](https://github.com/user-attachments/assets/85ab41af-152b-46fd-8206-ed25c5c4581d)
+<br>
+
+
+**Introduction to VSDBabySoC:**
+
+VSDBabySoC is a compact yet powerful RISC-V-based SoC, designed to test and calibrate three open-source IP cores, while integrating an analog component. The key components of the VSDBabySoC are:
+
+<br>
+![image](https://github.com/user-attachments/assets/19432541-272e-430a-a668-379de7333056)
+<br>
+
+**RVMYTH Microprocessor:** A simple RISC-V-based CPU.
+**8x-PLL:** Generates a stable clock signal for synchronization and timing.
+**10-bit DAC:** Converts digital signals to analog, enabling communication with other analog devices.
+
+**BabySoC Components:**
+  1) RVMYTH Core: A basic RISC-V CPU used to perform general-purpose computing tasks.
+  2) PLL (Phase-Locked Loop): A feedback control system that locks the output frequency to match a reference signal, widely used for clock generation.
+  3) DAC (Digital-to-Analog Converter): Converts digital data into analog signals, essential for interfacing with analog devices in communication systems.
+
+What is a PLL (Phase-Locked Loop)?
+A Phase-Locked Loop (PLL) is a control system that generates an output signal with a phase that aligns with the phase of a given input signal. It maintains a constant phase difference between input and output, ensuring that both signals operate at the same frequency.
+
+**Key Components of a PLL:**
+
+  1) Phase Detector: Compares the phase of the input signal with that of the oscillator output, generating an error signal.
+  2) Loop Filter: Filters the error signal, producing a smooth voltage to control the oscillator.
+  3) Voltage-Controlled Oscillator (VCO): Adjusts the frequency based on the error voltage to lock onto the input frequency.
+  4) In some configurations, a frequency divider is added in the feedback loop to generate output frequencies that are multiples of the reference signal.
+
+**Why Off-Chip Clocks Can’t Be Used All the Time:**
+External clocks can introduce delays due to long wiring and clock jitter. Additionally, different system blocks may require varying clock frequencies, making it impractical to rely on a single external source. Factors such as ppm (parts per million) error, frequency stability, and temperature sensitivity also impact the precision of off-chip clocks, making on-chip PLLs a more reliable option.
+
+**Digital-to-Analog Converter (DAC):**
+A Digital-to-Analog Converter (DAC) translates digital signals into analog output. DACs play a critical role in communication systems, where digitally encoded information needs to be converted into analog signals for transmission.
+
+**Types of DACs:**
+
+  1) Weighted Resistor DAC: Uses weighted resistances for each bit in the digital signal.
+  2) R-2R Ladder DAC: Employs a repeating structure of resistors to convert the digital signal.
+
+In the VSDBabySoC, a 10-bit DAC is used, which means it has 10 binary input bits that it converts into an analog output. This enables precise control and communication with analog devices.
+
 
 
 
