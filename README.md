@@ -1,4 +1,4 @@
-# soc_design
+<img width="820" alt="Screenshot 2024-10-19 at 6 53 07 PM" src="https://github.com/user-attachments/assets/13c0eda4-a61d-428f-84de-8fcb6d31b2d1"># soc_design
 
 
 <details>
@@ -526,7 +526,8 @@ The SoC design process is structured in multiple stages, from specification and 
 
 
 
-![image](https://github.com/user-attachments/assets/85ab41af-152b-46fd-8206-ed25c5c4581d)
+<img width="820" alt="Screenshot 2024-10-19 at 6 53 07 PM" src="https://github.com/user-attachments/assets/9f85f33a-fa38-447a-9864-9fb6f9b48475">
+
 
 
 
