@@ -1,5 +1,3 @@
-<img width="820" alt="Screenshot 2024-10-19 at 6 53 07 PM" src="https://github.com/user-attachments/assets/13c0eda4-a61d-428f-84de-8fcb6d31b2d1"># soc_design
-
 
 <details>
 <summary>DAY 0 : Tools Installation</summary>
