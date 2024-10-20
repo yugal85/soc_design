@@ -577,3 +577,73 @@ In the VSDBabySoC, a 10-bit DAC is used, which means it has 10 binary input bits
 
 
 </details>
+
+
+<details> 
+<summary> Day 8 : BabySoC Modeling </summary>
+
+
+**What is Modelling?**
+Modelling refers to the creation of a mathematical or logical representation of a system or a component to study its behavior, predict outcomes, and support decision-making. In the context of Modelling and Simulation (M&S), it involves constructing a physical or logical model to simulate how a system functions in the real world, allowing engineers to analyze the system under various conditions.
+
+**Purpose of Modelling:**
+The primary purpose of system modelling is to aid in:
+
+  1) Analysis: Understanding system behavior and performance.
+  2) Specification: Defining system requirements.
+  3) Design: Aiding the development of complex systems.
+  4) Verification and Validation: Ensuring that the system functions as intended and adheres to specifications.
+  5) Communication: Conveying critical information about the system to stakeholders and collaborators.
+  In the VLSI domain, modelling is essential for analyzing the functionality and performance of integrated circuits before they are physically built, saving time and resources in development.
+
+**What Are We Modelling?** (VSDBabySoC)
+For VSDBabySoC, the model consists of three main Intellectual Property (IP) cores:
+
+  1) PLL (Phase-Locked Loop): Generates the clock signal for the entire system.
+  2) RVMYTH (RISC-V CPU): Executes instructions based on the clock input.
+  3) DAC (Digital-to-Analog Converter): Converts the output from RVMYTH into an analog signal.
+
+
+**The flow of signals in the SoC:**
+
+  1) Initial input signals are fed into the VSDBabySoC module.
+  2) The PLL generates the proper clock signal (CLK) for the system.
+  3) The clock signal triggers the RVMYTH core to execute instructions, producing intermediate values.
+  4) These values are used by the DAC core to provide the final analog output signal, OUT.
+  5) Additionally, the system includes a wrapper that integrates all the components and a testbench for simulation.
+
+**Challenges in Modelling Mixed-Signal Blocks:**
+A key challenge in modelling the VSDBabySoC is that it contains both digital and analog blocks, requiring different simulation approaches:
+
+**RVMYTH (Digital Block):** Since this is a purely digital component, it can be modelled using a Hardware Description Language (HDL) like Verilog, which allows for designing and verifying its functionality using a testbench.
+
+**DAC and PLL (Analog Blocks):** These blocks present a challenge because traditional HDLs like Verilog cannot synthesize analog designs. To simulate the functionality of these blocks, designers will often use specialized data types like real in Verilog for simulation purposes. This allows for verifying the logical correctness of the system without fully synthesizing the analog components.
+
+**Goal of Modelling:**
+The ultimate goal of this modelling effort is to simulate the functionality of the VSDBabySoC, ensuring that the system operates correctly from a logical standpoint. While physical synthesis of analog blocks (DAC, PLL) is not possible in Verilog, the model aims to verify the integration and interaction of all IP cores and check whether the system delivers the expected outputs based on input signals and clocking mechanisms.
+
+<h2> RVMYTH MODELING </h2>
+
+![Screenshot 2024-10-19 at 5 39 07 PM](https://github.com/user-attachments/assets/90b78d18-4962-4eaf-bfb4-f5591806a7a7)
+
+
+<h2> DAC MODELING </h2>
+
+![Screenshot 2024-10-19 at 5 47 12 PM](https://github.com/user-attachments/assets/fa13164a-1345-4de9-8116-329227f0febf)
+
+
+<h2> PLL MODELING </h2>
+
+![Screenshot 2024-10-19 at 5 51 04 PM](https://github.com/user-attachments/assets/7678b15e-3881-4ad1-b8a7-32fed46f68a3)
+
+<h2> DAC OUTPUT VERIFICATION </h2>
+
+![Screenshot 2024-10-19 at 6 06 53 PM](https://github.com/user-attachments/assets/b0edc2f5-eeda-4d6c-8b0c-16930ea5ad72)
+
+
+
+
+
+
+
+</details>
