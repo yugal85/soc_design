@@ -582,6 +582,7 @@ In the VSDBabySoC, a 10-bit DAC is used, which means it has 10 binary input bits
 <details> 
 <summary> Day 8 : BabySoC Modeling </summary>
 
+<br>
 
 **What is Modelling?**
 Modelling refers to the creation of a mathematical or logical representation of a system or a component to study its behavior, predict outcomes, and support decision-making. In the context of Modelling and Simulation (M&S), it involves constructing a physical or logical model to simulate how a system functions in the real world, allowing engineers to analyze the system under various conditions.
