@@ -21,7 +21,7 @@
 </details>
 
 <details>
-<summary> <h2> Module 1 : Introduction to Verilog RTL Design and Synthesis </h2> </summary>
+<summary> <h3> Module 1 : Introduction to Verilog RTL Design and Synthesis </h3> </summary>
 
 
 
