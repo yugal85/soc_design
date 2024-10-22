@@ -21,7 +21,7 @@
 </details>
 
 <details>
-<summary> Module 1 : Introduction to Verilog RTL Design and Synthesis </summary>
+<summary> <h2> Module 1 : Introduction to Verilog RTL Design and Synthesis </h2> </summary>
 
 
 
@@ -48,7 +48,7 @@
 </details>
 
 <details>
-  <summary> Module 2 : Timing Libs, Hierarchical vs Flat Synthesis and Efficient Coding Styles </summary>
+  <summary> <h2> Module 2 : Timing Libs, Hierarchical vs Flat Synthesis and Efficient Coding Styles </h2> </summary>
 
 <h2> Introduction to timing .libs </h2>
 
@@ -159,7 +159,7 @@
 </details>
 
 <details>
-  <summary> Module 3 : Combinational and Sequential Optimizations </summary>
+  <summary> <h2> Module 3 : Combinational and Sequential Optimizations </h2> </summary>
 
 <h2> Optimizations </h2>
 
@@ -267,7 +267,7 @@
 </details>
 
 <details>
-  <summary> Module 4 : GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatch </summary>
+  <summary> <h2> Module 4 : GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatch </h2> </summary>
 
 <h2> Synthesis-Simulation Mismatch </h2>
 
@@ -316,7 +316,7 @@
 </details>
 
 <details> 
-<summary> Module 5: Introduction to Logic Synthesis </summary>
+<summary> <h2> Module 5: Introduction to Logic Synthesis </h2> </summary>
 
 **Setting Up Synopsys Design Compiler (Flip-Flop)**
 
@@ -357,7 +357,7 @@
 </details>
 
 <details> 
-<summary> Module 6 : Basics of STA </summary>
+<summary> <h2> Module 6 : Basics of STA </h2> </summary>
 
 **Understanding the .lib File Part 1**
 
@@ -420,7 +420,7 @@
 </details>
 
 <details> 
-<summary> Module 7 : Introduction to BabySoC Modeling </summary>
+<summary> <h2> Module 7 : Introduction to BabySoC Modeling </h2> </summary>
 
 <br> 
 
@@ -580,7 +580,7 @@ In the VSDBabySoC, a 10-bit DAC is used, which means it has 10 binary input bits
 
 
 <details> 
-<summary> Module 8 : BabySoC Modeling </summary>
+<summary> <h2> Module 8 : BabySoC Modeling </h2> </summary>
 
 <br>
 
@@ -651,7 +651,7 @@ The ultimate goal of this modelling effort is to simulate the functionality of t
 
 <details>
   
-<summary> Module 9 : Post-Synthesis Simulation of BabySoC (GLS) </summary>
+<summary> <h2> Module 9 : Post-Synthesis Simulation of BabySoC (GLS) </h2> </summary>
 
 <br>
 
