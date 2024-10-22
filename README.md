@@ -1,6 +1,6 @@
 
 <details>
-<summary> Module 0 : Tools Installation </summary>
+<summary> <h2> Module 0 : Tools Installation </h2> </summary>
 
 
 **Yosys**
