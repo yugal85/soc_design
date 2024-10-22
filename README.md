@@ -1,6 +1,6 @@
 
 <details>
-<summary>DAY 0 : Tools Installation</summary>
+<summary> Module 0 : Tools Installation </summary>
 
 
 **Yosys**
@@ -48,7 +48,7 @@
 </details>
 
 <details>
-  <summary>Day 2 : Timing Libs, Hierarchical vs Flat Synthesis and Efficient Coding Styles</summary>
+  <summary> Module 2 : Timing Libs, Hierarchical vs Flat Synthesis and Efficient Coding Styles </summary>
 
 <h2> Introduction to timing .libs </h2>
 
@@ -159,7 +159,7 @@
 </details>
 
 <details>
-  <summary>Day 3 : Combinational and Sequential Optimizations</summary>
+  <summary> Module 3 : Combinational and Sequential Optimizations </summary>
 
 <h2> Optimizations </h2>
 
@@ -267,7 +267,7 @@
 </details>
 
 <details>
-  <summary>Day 4 : GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatch</summary>
+  <summary> Module 4 : GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatch </summary>
 
 <h2> Synthesis-Simulation Mismatch </h2>
 
@@ -316,7 +316,7 @@
 </details>
 
 <details> 
-<summary> Day 5: Introduction to Logic Synthesis</summary>
+<summary> Module 5: Introduction to Logic Synthesis </summary>
 
 **Setting Up Synopsys Design Compiler (Flip-Flop)**
 
@@ -357,7 +357,7 @@
 </details>
 
 <details> 
-<summary> Day 6 : Basics of STA </summary>
+<summary> Module 6 : Basics of STA </summary>
 
 **Understanding the .lib File Part 1**
 
@@ -420,7 +420,7 @@
 </details>
 
 <details> 
-<summary> Day 7 : Introduction to BabySoC Modeling </summary>
+<summary> Module 7 : Introduction to BabySoC Modeling </summary>
 
 <br> 
 
@@ -580,7 +580,7 @@ In the VSDBabySoC, a 10-bit DAC is used, which means it has 10 binary input bits
 
 
 <details> 
-<summary> Day 8 : BabySoC Modeling </summary>
+<summary> Module 8 : BabySoC Modeling </summary>
 
 <br>
 
@@ -651,7 +651,7 @@ The ultimate goal of this modelling effort is to simulate the functionality of t
 
 <details>
   
-<summary> Day 9 : Post-Synthesis Simulation of BabySoC (GLS) </summary>
+<summary> Module 9 : Post-Synthesis Simulation of BabySoC (GLS) </summary>
 
 <br>
 
