@@ -709,7 +709,7 @@ To synthesize the VSDBabySoC design, you need .db format files for libraries suc
 </details>
 
 <details>
-<summary> <h3>Module 9 : Synthesis and Timing of BabySoC</h3></summary>
+<summary> <h3>Module 10 : Synthesis and Timing of BabySoC</h3></summary>
 
 Table for Worst Negative/Setup Slack (WNS) & Worst Hold Slack (WHS) for different available PVT corners, for our BabySoC Design :
 
