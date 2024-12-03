@@ -809,14 +809,16 @@ Table for Worst Negative/Setup Slack (WNS) & Worst Hold Slack (WHS) for differen
 <h2> WNS Plot for Various PVT Corners </h2>
 
 
-![1](https://github.com/user-attachments/assets/aeded050-2d74-4de8-81e7-783422c30da1)
+![a_wnspvt](https://github.com/user-attachments/assets/50815d42-5090-40ab-bec3-092ac0b42d59)
+
 
 
 
 <h2> WHS Plot for Various PVT Corners </h2>
 
 
-![2](https://github.com/user-attachments/assets/b0ffe2f7-98b9-4b0a-bd66-21298622a85a)
+![a_whspvt](https://github.com/user-attachments/assets/42c23d5f-5450-4e17-9a69-d5631f1ab7c3)
+
 
 
 
