@@ -736,3 +736,8 @@ To synthesize the VSDBabySoC design, you need .db format files for libraries suc
 
 
 </details>
+
+<details> 
+<summary>Module 11: OpenLane Flow</summary>
+
+</details>
